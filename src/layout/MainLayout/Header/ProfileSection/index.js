@@ -66,12 +66,12 @@ const ProfileSection = () => {
         setOpen(false);
     };
 
-    const handleListItemClick = (event, index, route = '') => {
+    const handleListItemClick = (event, index, route = '', replace = false) => {
         setSelectedIndex(index);
         handleClose(event);
 
         if (route && route !== '') {
-            navigate(route);
+            navigate(route, { replace });
         }
     };
     const handleToggle = () => {
@@ -292,6 +292,16 @@ const ProfileSection = () => {
                                                         <IconLogout stroke={1.5} size="1.3rem" />
                                                     </ListItemIcon>
                                                     <ListItemText primary={<Typography variant="body2">Logout</Typography>} />
+                                                </ListItemButton>
+                                                <ListItemButton
+                                                    sx={{ borderRadius: `${customization.borderRadius}px` }}
+                                                    selected={selectedIndex === 5}
+                                                    onClick={(event) => handleListItemClick(event, 5, '/pages/login/login3', false)}
+                                                >
+                                                    <ListItemIcon>
+                                                        <IconLogout stroke={1.5} size="1.3rem" />
+                                                    </ListItemIcon>
+                                                    <ListItemText primary={<Typography variant="body2">Login</Typography>} />
                                                 </ListItemButton>
                                             </List>
                                         </Box>

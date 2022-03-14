@@ -1988,10 +1988,10 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@tabler/icons@^1.39.1":
-  version "1.41.2"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.41.2.tgz#effccbb261539b68609cc7dc660a058683170ee1"
-  integrity sha512-X6cQmMC24hiwg0p2BzasvU3IeCCdOk0f/9d6gNNtJM4lzG2TCloTns1bVvU5MAFkITGukxUqjPFE3Ecd6kGsfw==
+"@tabler/icons@1.X":
+  version "1.55.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.55.0.tgz#db72bddbd2be9a75405f2eab102d7d06e5a6f1d0"
+  integrity sha512-svozMn83K/93R8NZrklc8b0TtuzAVckKaYHgOu5ZRCeGwoyGPUCgeWd3/cTFoE0eUaJ4KwhqU1eXa2yJ8KcT5w==
 
 "@testing-library/dom@^7.28.1":
   version "7.31.2"

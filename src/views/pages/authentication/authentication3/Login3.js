@@ -65,6 +65,7 @@ const Login = () => {
                                     <Grid item xs={12}>
                                         <Divider />
                                     </Grid>
+                                    {/* For Registering...
                                     <Grid item xs={12}>
                                         <Grid item container direction="column" alignItems="center" xs={12}>
                                             <Typography
@@ -76,7 +77,7 @@ const Login = () => {
                                                 Don&apos;t have an account?
                                             </Typography>
                                         </Grid>
-                                    </Grid>
+                                    </Grid> */}
                                 </Grid>
                             </AuthCardWrapper>
                         </Grid>

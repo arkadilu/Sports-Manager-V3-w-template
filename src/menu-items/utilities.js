@@ -1,46 +1,36 @@
 // assets
-import { IconTypography, IconPalette, IconShadow, IconWindmill } from '@tabler/icons';
+import { IconReportAnalytics, IconReportMoney } from '@tabler/icons';
 
 // constant
 const icons = {
-    IconTypography,
-    IconPalette,
-    IconShadow,
-    IconWindmill
+    IconReportAnalytics,
+    IconReportMoney
 };
 
 // ==============================|| UTILITIES MENU ITEMS ||============================== //
 
 const utilities = {
-    id: 'utilities',
-    title: 'Utilities',
+    id: 'reports',
+    title: 'Reports',
     type: 'group',
     children: [
         {
-            id: 'util-typography',
-            title: 'Typography',
+            id: 'report-attendance',
+            title: 'Attendance',
             type: 'item',
-            url: '/utils/util-typography',
-            icon: icons.IconTypography,
+            url: '/report/attendance',
+            icon: icons.IconReportAnalytics,
             breadcrumbs: false
         },
         {
-            id: 'util-color',
-            title: 'Color',
+            id: 'report-payments',
+            title: 'Payments',
             type: 'item',
-            url: '/utils/util-color',
-            icon: icons.IconPalette,
+            url: '/report/payments',
+            icon: icons.IconReportMoney,
             breadcrumbs: false
-        },
-        {
-            id: 'util-shadow',
-            title: 'Shadow',
-            type: 'item',
-            url: '/utils/util-shadow',
-            icon: icons.IconShadow,
-            breadcrumbs: false
-        },
-        {
+        }
+        /*  ,{
             id: 'icons',
             title: 'Icons',
             type: 'collapse',
@@ -61,7 +51,7 @@ const utilities = {
                     breadcrumbs: false
                 }
             ]
-        }
+        }   */
     ]
 };
 
