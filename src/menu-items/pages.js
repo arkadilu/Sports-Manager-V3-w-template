@@ -3,7 +3,6 @@ import { IconKarate, IconUsers, IconBuildingWarehouse } from '@tabler/icons';
 
 // constant
 const icons = {
-    // IconKey,
     IconKarate,
     IconUsers,
     IconBuildingWarehouse
@@ -52,7 +51,7 @@ const pages = {
                     id: 'login3',
                     title: 'Login',
                     type: 'item',
-                    url: '/pages/login/login3',
+                    url: '/pages/login',
                     target: false
                 }
                 //         {

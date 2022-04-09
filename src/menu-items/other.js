@@ -30,7 +30,7 @@ const other = {
             id: 'update-inventory',
             title: 'Update Inventory',
             type: 'item',
-            url: 'pages/inventory/u',
+            url: '/pages/inventory/u',
             icon: icons.IconUserPlus,
             breadcrumbs: false
         }

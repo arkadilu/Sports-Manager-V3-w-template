@@ -21,34 +21,38 @@ const SamplePage = Loadable(lazy(() => import('views/sample-page')));
 
 const MainRoutes = {
     path: '/',
-    element: <MainLayout />,
+    element: (
+        // <AuthGuard>
+        <MainLayout />
+        // </AuthGuard>
+    ),
     children: [
         {
             path: '/',
             element: <DashboardDefault />
         },
         {
-            path: '/dashboard/default',
+            path: '/dashboard',
             element: <DashboardDefault />
         },
         {
-            path: '/utils/util-typography',
+            path: '/customer',
             element: <UtilsTypography />
         },
         {
-            path: '/utils/util-color',
+            path: '/group',
             element: <UtilsColor />
         },
         {
-            path: '/utils/util-shadow',
+            path: '/inventory',
             element: <UtilsShadow />
         },
         {
-            path: '/icons/tabler-icons',
+            path: '/reports/attendance',
             element: <UtilsTablerIcons />
         },
         {
-            path: '/icons/material-icons',
+            path: '/reports/payments',
             element: <UtilsMaterialIcons />
         },
         {
